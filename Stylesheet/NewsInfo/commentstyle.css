@@ -1,0 +1,40 @@
+
+#input{
+	width: 61%;
+	height: 45px;
+	background: #404040;
+	font-size: 15px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	border-bottom: 1px solid #fff;
+}
+
+#input:focus{
+	border-bottom: 2px solid #fff;
+}
+#Cancle{
+	height:35px;
+	width: 100px;
+	background: #ffc107;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px 0;
+	font-size: 15px;
+	border: none;
+	box-shadow: 0 3px 10px #111;
+}
+#Comment{
+	height:35px;
+	width: 100px;
+	background: #ffc107;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px 0;
+	font-size: 15px;
+	border: none;
+	box-shadow: 0 3px 10px #111;
+}
+button:hover{
+	opacity: .8;
+}

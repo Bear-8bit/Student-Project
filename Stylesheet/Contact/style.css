@@ -1,0 +1,12 @@
+.map-wrapper{
+	max-width: 700px;
+}
+.googlemap{
+	width: 100%;
+}
+label.error{
+	font-weight: 700;
+	display: block;
+	color: #f00;
+	font-size: 18px;
+}

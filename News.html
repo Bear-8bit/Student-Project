@@ -1,0 +1,398 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+   <script src="https://kit.fontawesome.com/8f8fa07c22.js" crossorigin="anonymous"></script>
+   <link rel="icon" type="image/x-icon" href="Images/Avatar/favicon.png">
+   <title>NightGlow</title>
+</head>
+<body>
+<!------------------------------------------------------------------NAVBAR-->
+<nav class="navbar navbar-expand-lg bg-dark border-bottom border-light navbar-dark py-3">
+   <div class="container">
+      <a href="index.html" class="navbar-brand fw-bold text-uppercase"><i class="far fa-moon" style="color: #ffc107; padding-right: 10px"></i>NightGlow</a>
+	<div class="collapse navbar-collapse" id="navbar">
+	    <ul class="navbar-nav">
+		   <li class="nav-item">
+		     <a href="index.html" class="nav-link">Trang chủ</a>
+		   </li>
+	       <li class="nav-item">
+		     <a href="News.html" class="nav-link">Tin tức</a>
+		   </li>
+		   <li class="nav-item">
+		      <a href="Shop.html" class="nav-link">Cửa hàng</a>
+		   </li>
+		     <li class="nav-item">
+		     <a href="Contact.html" class="nav-link">Liên hệ</a>
+		   </li>
+			 <li class="nav-item">
+		   	 <a href="#" class="d-md-none nav-link">Đăng ký</a>
+			</li>
+			 <li class="nav-item">
+		   	 <a href="#" class="d-md-none nav-link">Đăng nhập</a>
+			</li>
+		</ul>
+   </div>
+<div class="d-block">
+    <form class="d-flex ">
+      <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+       <button class="btn btn-sm border border-0 bg-transparent"><i class="fas fa-search text-light fs-5"></i></button>
+    </form>
+ </div>
+    <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle d-none d-lg-block" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             <button class="btn btn-sm"><i class="fas fa-user text-light d-none d-lg-block fs-5"></i></button>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+            <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+	    <span class="navbar-toggler-icon"></span>
+   </button>
+</div>
+</nav>
+<!--TRENDING NEWS------------------------------------------------------->
+<section class="bg-dark bg-gradient text-light p-4 text-center text-sm-start">
+<div class="container p-4 border-0 border-light border-bottom">
+    <div class="text-center text-light">
+	    <h2 class="fw-bold fs-1 border border-top-0 border-start-0 border-end-0 border-light pb-4"><span><i class="bi bi-graph-up pe-3"></i>Tin tức phổ biến</span></h2>
+    </div>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner p-4">
+   <a href="#">
+    <div class="carousel-item active background-image">
+      <img src="Images/News/TrendingNews/trendingnews-1.jpg" class="img-fluid w-100 d-inline-block rounded" alt="trendingnews1">
+	  <div class="carousel-caption d-none d-md-block bg-gradient border-secondary border-0 border-start border-end rounded" style="text-shadow: 0px 5px 5px #000000">
+	    <h3 class="fw-bold">Resident Evil Village đã bán trên 5 Triệu bản Copies và Doanh thu kỷ lục của Capcom tiếp tục tăng</h3>
+      </div>
+    </div>
+    <div class="carousel-item ">
+      <img src="Images/News/TrendingNews/trendingnews-2.jpg" class="w-100 d-inline-block rounded" alt="trendingnews2">
+	    <div class="carousel-caption d-none d-md-block bg-gradient border-secondary border-0 border-start border-end rounded" style="text-shadow: 0px 5px 5px #000000">
+		   <h3 class="fw-bold">Các ứng cử viên của The Game Award 2021 đã được công bố</h3>
+       </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/News/TrendingNews/trendingnews-3.jpg" class="w-100 d-inline-block rounded" alt="trendingnews3">
+	    <div class="carousel-caption d-none d-md-block bg-gradient border-secondary border-0 border-start border-end rounded" style="text-shadow: 0px 5px 5px #000000">
+		 <h3 class="fw-bold">Dead by Daylight - Portrait of a Murder ra Trailer chính thức</h3>
+       </div>
+    </div>
+	<div class="carousel-item ">
+	  <img src="Images/News/TrendingNews/trendingnews-4.jpg" class="w-100 d-inline-block rounded" alt="trendingnews4">
+	    <div class="carousel-caption d-none d-md-block bg-gradient border-secondary border-0 border-start border-end rounded" style="text-shadow: 0px 5px 5px #000000">
+		 <h3 class="fw-bold">Elden Ring sẽ chạy 'Lên tới' 60 FPS trên Consoles thế hệ mới và máy tính</h3>
+       </div>
+	</div>
+	<div class="carousel-item">
+	  <img src="Images/News/TrendingNews/trendingnews-5.jpg" class="w-100 d-inline-block rounded" alt="trendingnews5">
+	    <div class="carousel-caption d-none d-md-block bg-gradient border-secondary border-0 border-start border-end rounded" style="text-shadow: 0px 5px 5px #000000">
+		 <h3 class="fw-bold">Steam đạt được số lượng người chơi đồng thời cao nhất từ trước tới giờ trong cuối tuần của lễ Tạ ơn 2021</h3>
+       </div>
+	</div>
+   </a>
+ </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+</div>
+</section>
+<!--NEWS AND RELATED NEWS------------------------------------------------------->
+<section  class="bg-dark text-light p-1 text-center text-sm-start">
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 text-center pt-3">
+	     <div class="text-start ps-3">
+	        <h2 class="fw-bold fs-2"><span class="text-light">Tin tức mới nhất</span></h2>
+	      </div>
+<!--------------------------------NEW 1---------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	<div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	 <a href="NewsInfo.html" class="text-decoration-none text-white">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-1.jpg" class="img-fluid rounded" alt="new-1">
+          </div>
+      <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">Trải nghiệm trực tiếp Elden Ring trước khi phát hành trong Closed Network Test</h6>
+             <p class="card-text">14h trước - Cuối cùng cũng đã được chơi Elden Ring</p>
+			 <p class="card-text fw-bold"><small class="text-muted"><i class="fas fa-gamepad"></i> Elden Ring </small></p>
+           </div>
+         </div>
+       </div>
+	   </a>
+    </div>
+</li>
+<!--------------------------------NEW 2---------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	 <div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	 <a href="#" class="text-decoration-none text-white">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-2.jpg" class="img-fluid rounded" alt="news-2">
+          </div>
+      <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">Người lồng tiếng cho Wesker bị cáo buộc do rò rỉ bản phác họa của Resident Evil 4 Remake</h6>
+             <p class="card-text pt-2">19h trước - Nam diễn viên bị cho là rò rỉ bản phác họa mặc dù biết rằng anh ấy có thể bị kiện vì điều đó</p>
+			 <p class="card-text fw-bold"><small class="text-muted"><i class="fas fa-gamepad"></i> Resident Evil 4 </small></p>
+           </div>
+         </div>
+       </div>
+	   </a>
+    </div>
+</li>	
+<!--------------------------------NEW 3---------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	 <div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	  <a href="#" class="text-decoration-none text-white">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-3.jpg" class="img-fluid rounded" alt="new-3">
+          </div>
+      <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">Battlefield 2042: Chế độ cánh cổng đã bị sử dụng để tạo thành Battle Royale</h6>
+             <p class="card-text">4 phút trước - Warfield 100 bao gồm đồ ngẫu nhiên và còn nhiều nữa.</p>
+			 <p class="card-text fw-bold"><small class="text-muted"><i class="fas fa-gamepad"></i> Battlefield 2042 </small></p>
+           </div>
+         </div>
+       </div>
+	  </a>
+    </div>
+</li>
+<!--------------------------------NEW 4---------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	 <div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	   <a href="#" class="text-decoration-none text-white">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-4.jpeg" class="img-fluid rounded" alt="news-4">
+          </div>
+      <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">DLC của Ghostrunner, Project_Hel sẽ Chính thức ra được ra mắt trong năm 2022</h6>
+             <p class="card-text">1h trước - DLC sẽ được ra mắt trong tháng 1, cùng với 1 bản beta trước khi phát hành</p>
+			 <p class="card-text fw-bold"><small class="text-muted"><i class="fas fa-gamepad"></i> Ghostrunner </small></p>
+           </div>
+         </div>
+       </div>
+	   </a>
+    </div>
+</li>
+<!--------------------------------NEW 5---------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	 <div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	 <a href="#" class="text-decoration-none text-white">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-5.jpg" class="img-fluid rounded" alt="news-5">
+          </div>
+      <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">Ruined King: A League of Legend Story Review</h6>
+             <p class="card-text">12h trước - Đây là bước tiến lớn để giới thiệu người chơi đến Runeterra</p>
+			 <p class="card-text fw-bold"><small class="text-muted"><i class="fas fa-gamepad"></i> Ruined King: A League of Legends Story</small></p>
+           </div>
+         </div>
+       </div>
+	  </a>
+    </div>
+</li>
+<!--------------------------------NEW 6---------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	 <div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	   <a href="#" class="text-decoration-none text-white">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-6.jpg" class="img-fluid rounded" alt="news-6">
+          </div>
+           <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">Halo Infinite ra mắt Trailer dành cho cốt truyện</h6>
+             <p class="card-text">23h trước - Nó gần tới rồi</p>
+			 <p class="card-text fw-bold"><small class="text-muted"> <i class="fas fa-gamepad"></i> Halo Infinite</small></p>
+             </div>
+          </div>
+         </div>
+		 </a>
+     </div>
+</li>
+<!--------------------------------NEW 7---------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	 <div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	  <a href="#" class="text-decoration-none text-white ">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-7.jpg" class="img-fluid rounded" alt="news-7">
+          </div>
+           <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">Babylon's Fall có Trang Bị và Biểu Cảm 'Vay mượn' từ Final Fantasy 14</h6>
+             <p class="card-text">2h trước - Nói là vậy, Đa số các bộ trang bị có thể nhận trong game vẫn độc nhất đối với Babylon's Fall</p>
+			 <p class="card-text fw-bold"><small class="text-muted"><i class="fas fa-gamepad"></i> Babylon's Fall </small></p>
+             </div>
+          </div>
+         </div>
+	    </a>
+     </div>
+</li>
+<!--------------------------------NEW 8---------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	 <div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	   <a href="#" class="text-decoration-none text-white ">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-8.jpg" class="img-fluid rounded" alt="news-8">
+          </div>
+           <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">Paper Mario sẽ đến với Nintendo Switch Online</h6>
+             <p class="card-text">5h trước - Nintendo đã thông báo Nintendo Switch Expansion sẽ có Paper Mario</p>
+			 <p class="card-text fw-bold"><small class="text-muted"><i class="fas fa-gamepad"></i> Nintendo Switch </small></p>
+             </div>
+          </div>
+         </div>
+		</a>
+     </div>
+</li>
+<!--------------------------------NEW 9--------------------------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	 <div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	   <a href="#" class="text-decoration-none text-white ">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-9.jpg" class="img-fluid rounded" alt="news-9">
+          </div>
+           <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">Nhà phát hành Halo Infinite sẽ tiếp tục chỉnh sửa Hệ thống tiến triển đáng tranh cãi</h6>
+             <p class="card-text">9h trước - "Chúng tôi sẽ quay trở lại nó vào tuần tới và nó sẽ nằm ở đầu danh sách của tôi cần bàn luận với team"</p>
+			 <p class="card-text fw-bold"><small class="text-muted"><i class="fas fa-gamepad"></i> Halo Infinite </small></p>
+             </div>
+          </div>
+         </div>
+		</a>
+     </div>
+	 </li>
+<!--------------------------------NEW 10-------------------------------------------------->
+<li class="list-group-item bg-transparent border-0">
+	 <div class="card border-light mb-3 text-light bg-dark" style="max-width: 775px;">
+	   <a href="#" class="text-decoration-none text-white ">
+          <div class="row g-0">
+          <div class="col-md-4">
+          <img src="Images/News/New2/news-10.jpg" class="img-fluid rounded" alt="news-10">
+          </div>
+           <div class="col-md-8">
+             <div class="card-body">
+             <h6 class="card-title fw-bold fs-6">Battlefield 2042 sẽ ra bản vá lỗi cần thiết vào cuối tuần</h6>
+             <p class="card-text">9h trước - Chúng ta sẽ không cần phải đợi đến năm 2042 để có được các bản vá lỗi và cân bằng</p>
+			 <p class="card-text fw-bold"><small class="text-muted"><i class="fas fa-gamepad"></i> Battlefield 2042 </small></p>
+             </div>
+          </div>
+         </div>
+	   </a>	 
+     </div>
+  </li>
+</div>
+<!----------------------------------LIST RELATED New------------------------------------------------>
+   <div class="col-md-4 text-center pt-3">
+      <h2 class="fw-bold fs-2"><span class="text-light">Tin hôm nay</span></h2>
+	   <div class="<list-group py-3">
+	     <a href="#" class="list-group-item border-0 border-top border-light list-group-item-action bg-transparent text-decoration-none py-4"><span class="text-light"><h5>Dead by Daylight - Everlasting Frost Collection ra mắt Trailer</h5></span></a>
+	     <a href="#" class="list-group-item border-0 border-top border-light list-group-item-action bg-transparent text-decoration-none py-4"><span class="text-light"><h5>Halo Infinite sẽ Thêm 3 Chế độ PvP nữa trước khi đến cuối năm</h5></span></a>
+	     <a href="#" class="list-group-item border-0 border-top border-light list-group-item-action bg-transparent text-decoration-none py-4"><span class="text-light"><h5>13 Phút dầu của Solar Ash</h5></span></a>
+	     <a href="#" class="list-group-item border-0 border-top border-light list-group-item-action bg-transparent text-decoration-none py-4"><span class="text-light"><h5>Dead Cells: The Queen and the Sea DLC - Tung ra Trailer chính thức</h5></span></a>
+		 <a href="#" class="list-group-item border-0 border-top border-light list-group-item-action bg-transparent text-decoration-none py-4"><span class="text-light"><h5>The Game Awards 2021: Cách để xem và nên trông đợi điều gì</h5></span></a>
+	     <a href="#" class="list-group-item border-0 border-top border-light list-group-item-action bg-transparent text-decoration-none py-4"><span class="text-light"><h5>Shadow Tactics: Blades of the Shogun - Aiko's Choice Review</h5></span></a>
+	   </div>
+   </div>
+ </div>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+<!-----------------------------FOOTER---------------------------------------->
+<footer class="bg-dark text-white pt-5 pb-4 bg-gradient border-0 border-top border-light">
+  <div class="container text-center text-md-left">
+     <div class="row text-center text-md-start">
+	    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+		   <h5 class="text-uppercase mb-4 fw-bold "><i class="far fa-moon" style="color: #ffc107;"></i> NIGHTGLOW</h5>
+		   <p style="color: #A9A9A9;">
+		      NightGlow là 1 trang web tin tức về game và tin tức giải trí được điều hành bởi Công ty giải trí Ghoul Boys.
+		   </p>
+		</div>
+		<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+		   <h5 class="text-uppercase mb-4 fw-bold"> Sản phẩm</h5>
+		   <p>
+		     <a href="#" style="text-decoration: none; color: #A9A9A9;">Điều khoản dịch vụ</a>
+		   </p>
+		     <p>
+		     <a href="#" style="text-decoration: none; color: #A9A9A9;">Chính sách đặt trước</a>
+		   </p>
+		     <p>
+		     <a href="#" style="text-decoration: none; color: #A9A9A9;">Chính sách giao hàng</a>
+		   </p>
+		     <p>
+		     <a href="#" style="text-decoration: none; color: #A9A9A9;">Chính sách đổi trả</a>
+		   </p>
+		</div>
+		
+		<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+		    <h5 class="text-uppercase mb-4 fw-bold">Dịch vụ</h5>
+			  <p>
+		     <a href="#" style="text-decoration: none; color: #A9A9A9;">Điều khoản dịch vụ</a>
+		   </p>
+		     <p>
+		     <a href="#" style="text-decoration: none; color: #A9A9A9;">Chính sách đặt trước</a>
+		   </p>
+		     <p>
+		     <a href="#" style="text-decoration: none; color: #A9A9A9;">Chính sách giao hàng</a>
+		   </p>
+		     <p>
+		     <a href="#" style="text-decoration: none; color: #A9A9A9;">Chính sách đổi trả</a>
+		   </p>
+		</div>
+		
+		<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+		   <h5 class="text-uppercase mb-4 fw-bold">Liên hệ</h5>
+		   <p style="color: #A9A9A9;">
+		     <i class="fas fa-home mr-3 pe-2"></i>Thành phố Hồ Chí Minh
+		   </p>
+		    <p style="color: #A9A9A9;">
+		     <i class="fas fa-envelope mr-3 pe-2"></i>zxy@gmail.com
+		   </p>
+		    <p style="color: #A9A9A9;">
+		     <i class="fas fa-phone mr-3 pe-2"></i>(555) 555 - 555
+		   </p>
+		    <p style="color: #A9A9A9;">
+		     <i class="fas fa-print mr-3 pe-2"></i> +01 335 633 77
+		   </p>
+		</div>
+		
+		<hr class="mb-4">
+		<div class="text-center">
+			     <strong class="text-warning">Copyright</strong> &copy; All rights reserved by The Ghoul Boys
+		</div>
+	 </div>
+  </div>
+</footer>
+</html>
